@@ -54,7 +54,7 @@ while True:
             file = open('textFile.txt', 'w')
             file.writelines(userPrompt)
             file.close()
-            print("Replaced the todo successfully")
+            print("Replaced the todo-backend-app-begining successfully")
 
         case 'exit':
             break

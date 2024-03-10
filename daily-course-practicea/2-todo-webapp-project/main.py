@@ -25,5 +25,5 @@ for index, to in enumerate(todos):
         del st.session_state[to]
         st.rerun()
 
-st.text_input(label="", placeholder="Add new todo....", on_change=add_todo, key='new_todo')
+st.text_input(label="", placeholder="Add new todo-backend-app-begining....", on_change=add_todo, key='new_todo')
 st.session_state
